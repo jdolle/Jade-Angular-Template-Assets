@@ -6,7 +6,11 @@ Use Jade for Angular Templates in Asset Rack!
 ## Usage
 
 ```
-jadeTemplates = require('jade-angular-templates');
+$ npm install jade-angular-template-assets
+```
+
+```
+jadeTemplates = require('jade-angular-template-assets');
 
 var assets = [
   new jadeTemplates.JadeAngularTemplatesAsset({
